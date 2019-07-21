@@ -1,0 +1,20 @@
+#f1 , #f1-p , #f2 , #f3 , #f4 , #f4-p , #f5 {
+	color: white;
+}
+
+.text-center li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.text-center li a{
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	transition: all ease-in-out 250ms;
+}
+
+.text-center li a:hover{
+	color:#b9b9b9;
+}

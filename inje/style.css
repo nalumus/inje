@@ -1,0 +1,273 @@
+.background {
+	margin: 0;
+	padding: 0;
+	background-image: url(background.jpg);
+	background-size: cover;
+	position: absolute;
+}
+
+#targaryen {
+	margin-bottom: 100px;
+}
+#targaryen1 {
+	margin-bottom: 50px;
+}
+#tyrion {
+	margin-bottom: 70px;
+}
+#box {
+	margin-bottom: 100px;
+}
+
+
+
+#h1 {
+	font-size: 50px;
+	margin-top: 47px;
+}
+#p1 {
+	font-size: 27px;
+}
+
+
+#h2 {
+	font-size: 50px;
+	margin-top: 11px;
+}
+#p2 {
+	font-size: 22px;
+}
+
+
+#h3 {
+	font-size: 60px;
+	margin-top: 50px;
+}
+#p3 {
+	font-size: 30px;
+}
+
+
+#h4 {
+	font-size: 50px;
+	margin-top: 47px;
+}
+#p4 {
+	font-size: 25px;
+}
+
+
+#h5 {
+	margin-top: 50px;
+	font-size: 60px;
+}
+#p5 {
+	font-size: 30px;
+}
+
+
+#h6 {
+	font-size: 60px;
+	margin-top: 47px;
+}
+#p6 {
+	font-size: 30px;
+}
+
+
+#h7 {
+	margin-top: 40px;
+}
+#p7 {
+	font-size: 30px;
+}
+
+
+#h8 {
+	margin-top: 50px;
+	font-size: 60px;
+}
+#p8 {
+	font-size: 29px;
+}
+
+
+#h9 {
+	font-size: 52px;
+	margin-top: 40px;
+}
+#p9 {
+	font-size: 30px;
+}
+
+
+#p10 {
+	font-size: 30px;
+}
+
+
+#h11 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+#p11 {
+	font-size: 28px;
+}
+
+
+#h12 {
+	font-size: 50px;
+	margin-top: 40px;
+}
+#p12 {
+	font-size: 27px;
+}
+
+
+#h13 {
+	font-size: 60px;
+	margin-top: 25px;
+}
+#p13 {
+	font-size: 25px;
+}
+
+
+#h14 {
+	margin-top: 40px;
+}
+#p14 {
+	font-size: 30px;
+}
+
+
+#h15 {
+	margin-top: 30px;
+}
+#p15 {
+	font-size: 30px;
+}
+
+
+#h16 {
+	font-size: 60px;
+}
+#p16 {
+	font-size: 35px;
+}
+
+
+#h17 {
+	font-size: 60px;
+	margin-top: 40px;
+}
+#p17 {
+	font-size: 35px;
+}
+
+
+#h18 {
+	font-size: 50px;
+	margin-top: 40px;
+}
+#p18 {
+	font-size: 25px;
+}
+
+
+#h19 {
+	font-size: 50px;
+}
+#p19 {
+	font-size: 25px;
+}
+
+
+#h20 {
+	margin-top: 40px;
+}
+#p20 {
+	font-size: 40px;
+}
+
+
+#h21 {
+	margin-top: 40px;
+}
+#p21 {
+	font-size: 40px;
+}
+
+
+#h22 {
+	font-size: 45px;
+	margin-top: 40px;
+}
+#p22 {
+	font-size: 25px;
+}
+
+
+
+#ab{
+	margin-bottom: 100px;
+}
+.w-100 {
+	margin-top: 60px;
+}
+#secondCarousel {
+	margin-bottom: 50px;
+}
+.gif {
+	margin-bottom: 100px;
+}
+
+
+
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+
+  video {
+  	width:100%;
+  }
+
+  .gif {
+  	width: 100%;
+  }
+}
+
+
+@media(max-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+
+  video {
+  	width:100%;
+  }
+
+  .gif {
+  	width: 100%;
+  }
+}
+

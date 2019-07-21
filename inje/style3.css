@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.container-1{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.brand{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper{
+/*  box-shadow: 0 0 20px 0 rgba(72,94,116,0.2);*/
+  width: 800px;
+}
+
+.wrapper > *{
+  padding: 1em;
+
+}
+
+.contact{
+  background:#ffff;
+  width: 800px;
+}
+
+.contact form{
+  display: block;
+}
+
+.contact form label{
+  display:block;
+}
+
+.contact form p{
+  margin:0;
+}
+
+.contact form input, .contact form textarea{
+  width:100%;
+  padding:1em;
+  border:1px solid #d1d1d1;
+}
+
+.contact form button {
+  width: 50%;
+  padding: 1em;
+  border: 1px solid #d1d1d1;
+  margin-left: 175px;
+}
+
+.contact form button{
+  background: #1f9e45;
+  border:0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover,.contact form button:focus{
+  background:#146b2e;
+  color:#fff;
+  outline:0;
+  transition: background-color 0.5s ease-out;
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+
+
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
+
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
